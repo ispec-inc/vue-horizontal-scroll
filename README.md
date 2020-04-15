@@ -29,3 +29,6 @@ export default {
 }
 </script>
 ```
+
+## Demo
+![demo](src/assets/demo.gif)
