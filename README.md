@@ -33,4 +33,4 @@ export default {
 [examples](https://github.com/ispec-inc/vue-horizontal-scroll/blob/master/examples/example.vue "examples")
 
 ## Demo
-![demo](https://github.com/ispec-inc/vue-horizontal-scroll/blob/master/src/assets/demo.gif)
+![demo](https://raw.githubusercontent.com/ispec-inc/vue-horizontal-scroll/master/src/assets/demo.gif)
