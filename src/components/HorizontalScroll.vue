@@ -8,6 +8,9 @@
 export default {
     mounted() {
         const content = this.$el;
+        setTimeout(() => {
+            console.log(this.$el.style);
+        }, 3000);
 
         //Firefox
         if(content.addEventListener){
