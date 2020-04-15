@@ -1,11 +1,19 @@
 {
-  "name": "horizontal-scroll-test",
+  "name": "vue-horizontal-scroll",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "dist/vue-horizontal-scroll.common.js",
+  "unpkg": "./dist/vue-horizontal-scroll.umd.min.js",
+  "jsdelivr": "./dist/vue-horizontal-scroll.umd.min.js",
+  "license": "MIT",
+  "author": "minminzemi",
+  "files": [ "dist" ],
+  "keywords": ["Vue", "Vue.js"],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-bundle": "vue-cli-service build --target lib --name vue-horizontal-scroll ./src/library-main.js"
   },
   "dependencies": {
     "core-js": "^3.6.4",
