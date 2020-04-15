@@ -1,14 +1,19 @@
 {
   "name": "vue-horizontal-scroll",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "main": "dist/vue-horizontal-scroll.common.js",
   "unpkg": "./dist/vue-horizontal-scroll.umd.min.js",
   "jsdelivr": "./dist/vue-horizontal-scroll.umd.min.js",
   "license": "MIT",
   "author": "minminzemi",
-  "files": [ "dist" ],
-  "keywords": ["Vue", "Vue.js"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "Vue",
+    "Vue.js"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
