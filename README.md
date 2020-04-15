@@ -34,3 +34,10 @@ export default {
 
 ## Demo
 ![demo](https://raw.githubusercontent.com/ispec-inc/vue-horizontal-scroll/master/src/assets/demo.gif)
+
+
+## Contributions
+All contributions are welcome send your PR and Issues.
+
+## License
+This is a open-source software licensed under the MIT license
