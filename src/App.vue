@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <horizontal-scroll class="horizontal-scroll">
+      <div></div>
+    </horizontal-scroll>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HorizontalScroll from './components/HorizontalScroll.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HorizontalScroll
   }
 }
 </script>
@@ -24,5 +25,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.horizontal-scroll {
+  width: 100%;
+  height: 100px;
 }
 </style>
