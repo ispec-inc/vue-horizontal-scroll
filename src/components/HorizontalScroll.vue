@@ -10,8 +10,8 @@ export default {
         const content = this.$el;
         //Firefox
         if(content.addEventListener){
-            content.addEventListener('DOMMouseScroll', function(e){
-            content.scrollBy(-e.wheelDelta, 0);
+            content.addEventListener('wheel', function(e){
+            content.scrollBy(e.deltaY * 20, 0);
             }, false);
         }
 
