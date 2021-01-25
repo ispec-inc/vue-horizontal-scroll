@@ -1,6 +1,6 @@
 {
   "name": "vue-horizontal-scroll",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "private": false,
   "main": "dist/vue-horizontal-scroll.common.js",
   "unpkg": "./dist/vue-horizontal-scroll.umd.min.js",
