@@ -1,6 +1,6 @@
 {
   "name": "vue-horizontal-scroll",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "private": false,
   "main": "dist/vue-horizontal-scroll.common.js",
   "unpkg": "./dist/vue-horizontal-scroll.umd.min.js",
@@ -25,6 +25,7 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@vue/cli": "^4.5.11",
     "@vue/cli-plugin-babel": "~4.3.0",
     "@vue/cli-plugin-eslint": "~4.3.0",
     "@vue/cli-service": "~4.3.0",
